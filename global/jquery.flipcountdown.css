@@ -1,0 +1,15 @@
+.xdsoft_flipcountdown { display:inline-block; }
+.xdsoft_flipcountdown .xdsoft_digit { float: left; 	background-repeat: no-repeat; }
+.xdsoft_flipcountdown .xdsoft_clearex{ clear:both; float:none; }
+.xdsoft_flipcountdown >.xdsoft_digit { background-position: 0 0; }
+.xdsoft_flipcountdown >.xdsoft_digit.xdsoft_separator,.xdsoft_flipcountdown >.xdsoft_digit.xdsoft_dot { opacity:0.9; }
+.xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit { width: 52px; height: 76px; background-image: url('https://www.goauto.ca/static/external-assets/jquery.flipcountdown.png'); }
+.xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit.xdsoft_space,
+.xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit.xdsoft_separator,
+.xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit.xdsoft_dot { width: 14px; background-position: -19px -5082px; }
+.xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit.xdsoft_dot { background-position: -41px -5082px; }
+.xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit.xdsoft_space { background-position: -100px -5082px; }
+@media screen and (max-width: 767px){
+    .xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit.xdsoft_space { width: 12px; }
+    .xdsoft_flipcountdown.xdsoft_size_lg >.xdsoft_digit { width: 38px }
+}
